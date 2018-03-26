@@ -1,0 +1,11 @@
+
+    <table border="1" style="width: 100%">
+        <tr>
+          <th>Title</th>
+          <th>Body</th>
+        </tr>
+        <tr *ngFor="let post of posts">
+          <td>{{post.title}}</td>
+          <td>{{post.body}}</td>
+        </tr>
+      </table>
